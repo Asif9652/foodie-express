@@ -1,0 +1,111 @@
+﻿node.exe : [31mx[39m 
+Build failed in 2.56s
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: ([3  
+  1mx[39m Build failed    
+ in 2.56s:String) [], R    
+emoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+[31merror during build:
+[31msrc/components/Categor
+yFilter.jsx (2:28): 
+"Burger" is not exported 
+by "node_modules/lucide-rea
+ct/dist/esm/lucide-react.js
+", imported by "src/compone
+nts/CategoryFilter.jsx".[3
+1m
+file: [36mC:/Users/Hema 
+Tej/Downloads/stitch (1)/Fo
+odieExpress/frontend/src/co
+mponents/CategoryFilter.jsx
+:2:28[31m
+[33m
+1: import { motion } from 
+'framer-motion';
+2: import { LayoutGrid, 
+Pizza, Burger, Soup, 
+Dessert, Coffee, 
+ChevronRight, 
+UtensilsCrossed } from 
+'lucide-react';
+                           
+    ^
+3: 
+4: const categories = [
+[31m
+    at getRollupError (file
+:///C:/Users/Hema%20Tej/Dow
+nloads/stitch%20(1)/FoodieE
+xpress/frontend/node_module
+s/rollup/dist/es/shared/par
+seAst.js:402:41)
+    at error (file:///C:/Us
+ers/Hema%20Tej/Downloads/st
+itch%20(1)/FoodieExpress/fr
+ontend/node_modules/rollup/
+dist/es/shared/parseAst.js:
+398:42)
+    at Module.error (file:/
+//C:/Users/Hema%20Tej/Downl
+oads/stitch%20(1)/FoodieExp
+ress/frontend/node_modules/
+rollup/dist/es/shared/node-
+entry.js:17040:16)
+    at 
+Module.traceVariable (file:
+///C:/Users/Hema%20Tej/Down
+loads/stitch%20(1)/FoodieEx
+press/frontend/node_modules
+/rollup/dist/es/shared/node
+-entry.js:17452:29)
+    at 
+ModuleScope.findVariable (f
+ile:///C:/Users/Hema%20Tej/
+Downloads/stitch%20(1)/Food
+ieExpress/frontend/node_mod
+ules/rollup/dist/es/shared/
+node-entry.js:15070:39)
+    at Identifier.bind (fil
+e:///C:/Users/Hema%20Tej/Do
+wnloads/stitch%20(1)/Foodie
+Express/frontend/node_modul
+es/rollup/dist/es/shared/no
+de-entry.js:5447:40)
+    at Property.bind (file:
+///C:/Users/Hema%20Tej/Down
+loads/stitch%20(1)/FoodieEx
+press/frontend/node_modules
+/rollup/dist/es/shared/node
+-entry.js:2829:23)
+    at 
+ObjectExpression.bind (file
+:///C:/Users/Hema%20Tej/Dow
+nloads/stitch%20(1)/FoodieE
+xpress/frontend/node_module
+s/rollup/dist/es/shared/nod
+e-entry.js:2825:28)
+    at 
+ArrayExpression.bind (file:
+///C:/Users/Hema%20Tej/Down
+loads/stitch%20(1)/FoodieEx
+press/frontend/node_modules
+/rollup/dist/es/shared/node
+-entry.js:2825:28)
+    at 
+VariableDeclarator.bind (fi
+le:///C:/Users/Hema%20Tej/D
+ownloads/stitch%20(1)/Foodi
+eExpress/frontend/node_modu
+les/rollup/dist/es/shared/n
+ode-entry.js:2829:23)[39m
