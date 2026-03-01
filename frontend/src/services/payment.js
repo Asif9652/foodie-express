@@ -1,6 +1,7 @@
 import axios from 'axios';
+import { API_URL as BASE_URL } from '../config/api';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL = BASE_URL ? `${BASE_URL}/api` : '/api';
 
 export const paymentService = {
     createOrder: async (orderData) => {

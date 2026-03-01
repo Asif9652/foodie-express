@@ -30,6 +30,10 @@ app.get('/', (req, res) => {
     res.json({ message: 'Welcome to FoodieExpress API (Node.js/Express 2026)' });
 });
 
+app.get('/api/health', (req, res) => {
+    res.json({ status: "running" });
+});
+
 // Error handling middleware
 app.use((err, req, res, next) => {
     console.error(err.stack);
